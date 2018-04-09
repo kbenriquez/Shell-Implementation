@@ -1,9 +1,8 @@
+//Author: Kyle Marcus Enriquez
+
 #include "sfish.h"
 #include "debug.h"
 
-/*
- * As in previous hws the main function must be in its own file!
- */
 
 sigset_t mask, prev_mask, block_all, unblock_all;
 char message[50] = "";
